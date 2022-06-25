@@ -30,5 +30,9 @@ pip install -r requirements.txt
 ```bash
 conda env export > conda.yaml
 ```
+### Create the environment from the conda.yml file -
+'''bash
+conda env create -f conda.yml
+'''
 
 ### STEP 06- commit and push the changes to the remote repository
