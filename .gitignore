@@ -140,6 +140,8 @@ configs/secrets.yaml
 # add your env folder here if its there
 mlruns/
 data.zip
+env/
+logs/
 running_logs.log
 
 
