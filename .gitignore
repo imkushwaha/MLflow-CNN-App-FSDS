@@ -142,6 +142,9 @@ mlruns/
 data.zip
 env/
 logs/
-running_logs.log
-
-
+log/running_logs.logs
+PetImages
+*.jpg
+data/readme*
+*.pdf 
+data/bad_data
