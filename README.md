@@ -31,24 +31,24 @@ pip install -r requirements.txt
 conda env export > conda.yaml
 ```
 ### Create the environment from the conda.yml file -
-'''bash
+```bash
 conda env create -f conda.yml
-'''
+```
 
 ### STEP 06- commit and push the changes to the remote repository
 
 ## MLFlow commands
 
-'''bash
+```bash
 mlflow run . --no-conda
-'''
+```
 
 ### run any specific entry points in MLproject file
-'''bash
+```bash
 mlflow run . -e get_data --no-conda
-'''
+```
 
 ### run any specific entry points in MLproject file with different config file
-'''bash
+```bash
 mlflow run . -e get_data -P config=configs/your_config.yaml --no-conda
-'''
+```
