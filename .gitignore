@@ -142,7 +142,7 @@ mlruns/
 data.zip
 env/
 logs/
-log/running_logs.logs
+log/running_logs.log
 PetImages
 *.jpg
 data/readme*
