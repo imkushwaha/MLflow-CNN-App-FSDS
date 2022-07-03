@@ -141,10 +141,12 @@ configs/secrets.yaml
 mlruns/
 data.zip
 env/
-logs/
+logs
 log/running_logs.log
 PetImages
 *.jpg
 data/readme*
 *.pdf 
 data/bad_data
+data/model/init_model.h5
+logs/running_logs.log
