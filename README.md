@@ -52,3 +52,13 @@ mlflow run . -e get_data --no-conda
 ```bash
 mlflow run . -e get_data -P config=configs/your_config.yaml --no-conda
 ```
+
+### run mlflow ui
+```bash
+mlflow ui
+```
+
+### how to serve mlflow model
+```bash
+mlflow models serve -m <path_to_mlflow_model_from_mlruns> -p 1234
+```
